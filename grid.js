@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var gridSize = alert("Enter your grid size.");
+	var gridSize = prompt("Enter your grid size.");
 	createGrid(gridSize);	
 	$('.column').hover(function(){
 		$(this).addClass('mouseenter');
