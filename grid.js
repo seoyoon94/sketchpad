@@ -7,7 +7,7 @@ $(document).ready(function(){
 	function(){
 		$(this).removeClass('mouseenter');
 	});
-}
+});
 
 function createGrid(gridSize){
 	for(var i = 0; i < gridSize; ++i){
